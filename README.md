@@ -13,9 +13,9 @@ Plik Mockup_clustering.ipynb stanowi kod wykorzystany w prezentacji śródsemest
 W projekcie wykorzystanow różne narzędzia do klastrowania danych, głównie eksperymentowano z algorytmem k-means. W związku w bardzo dużą liczbą wymiarów, w których są dane, zastosowano również metodę PCA (principal component analysis) w celu wizualizacji rozmieszczenia związków. Związki zakodowano w postaci fingerprintów Morgana.
 
 Celem projektu było przetestowanie następujących hipotez badawczych:
-1. Związki są rozłożone równomiernie w przestrzeni chemicznej
+1. Istnieją metody do znajdywania  wspólych podstruktur dla  bazy daych targetu.
 2. Grupy korelują ze źródłem danych, a wewnątrz klastrów można dostrzec wyraźne elementy wspólne dla wszystkich związków.
-3. Klastrowanie uwzględniające wartości aktywności pokazuje niespójności pomiędzy różnymi testami biologicznymi, tak zwanymi assays.
+3. Można znajdywać cechy wspólne dla różnych targetów.
 
 Technicznie należało również przetestować różne metody klastrowania, zastosować inne fingerprinty i sprawdzić efekt ich implementacji w stosunku do pierwotnie użytych narzędzi. Wyzwaniem było również znalezienie odpowiedniej liczby klastrów.
 
