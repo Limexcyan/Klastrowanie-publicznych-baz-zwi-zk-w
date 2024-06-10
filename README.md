@@ -2,7 +2,7 @@
 
 Celem projektu jest znalezienie ciekawych zależności w dużych publicznych zbiorach danych
 
-Pozyskane dane pochodzą z publicznej bazy związków ChEMBL dostępnej pod adresem https://www.ebi.ac.uk/chembl/ . Zbiór danych, użyty w projekcie znajduje się w tym repozytorium, pod nazwą CHEMBL244_actives.sdf .
+Pozyskane dane pochodzą z publicznej bazy związków ChEMBL dostępnej pod adresem https://www.ebi.ac.uk/chembl/ . Zbiór danych treningowych, użyty w projekcie znajduje się w tym repozytorium, pod nazwą CHEMBL244_actives.sdf .
 
 Do modeli wykorzystano wiadomości dostępne w następujących internetowych kursach dotyczących uczenia maszynowego:
 1. Google developers: https://developers.google.com/machine-learning/clustering
@@ -26,3 +26,5 @@ Na podstawie histogramu aktywności albo std_value stwierdzamy, że rozkład war
 Aby ustalić optymalną liczbę klastrów stosuje się metody porównujące wyniki klastrowania dla różnej maksymalnej liczby klastrów. Ma miejsce również wizualizacja analizy liczności klastrów, wykresy w zależności od wyniku oraz od całkowitego dystansu.
 
 W celu wizualizacji klastrów zastosowano analizę głównych składowych i przedstawiono wyniki na wykresie trójwymiarowym (z czwartym wymiarem w postaci kolorów - oznaczeń dla rozróżnienia klastrów).
+
+Zbadany został również wpływ nowych danych dołączonych do pierwotnego klastrowania. Dane wykorzystane w celu przeprowadzenia analizy są udostępnione w tym repozytorium w plikach pod nazwami CHEMBL2016_actives.sdf, CHEMBL204_actives.sdf, CHEMBL233_actives.sdf. 
